@@ -1,0 +1,22 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: pmbauer
+  description: role for operating a pairing host
+  company: "Udacity"
+  license: "GPL v3"
+  min_ansible_version: 1.9
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+    - jessie
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - utopic
+    - vivid
+  categories:
+    - system

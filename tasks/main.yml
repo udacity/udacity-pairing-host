@@ -1,0 +1,2 @@
+- include: dependencies.yml tags=pairing-host-dependencies
+- include: wemux.yml tags=pairing-host-wemux
