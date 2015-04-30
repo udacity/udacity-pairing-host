@@ -31,8 +31,14 @@ ansible-pull -U git@github.com:udacity/udacity-pairing-host.git
 ```
 
 ## wemux/tmux
-### keybindings
+
+### Creating/Joining sessions
 todo
+
+### keybindings
+Key  | Description
+---- | -------------
+todo | todo
 
 ## license
 Source Copyright © 2015 Udacity. Distributed under the GNU General Public License v3, the same as Ansible uses. See the file COPYING.
