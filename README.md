@@ -36,9 +36,15 @@ ansible-pull -U git@github.com:udacity/udacity-pairing-host.git
 [Wemux Host and Client Commands](https://github.com/zolrath/wemux#host-commands)
 
 ### keybindings
-Key  | Description
----- | -------------
-todo | todo
+| description | key
+------------- | ---
+view key bindings | `C-a ?` ("q" to quit)
+detach from session (leaves it running) | `C-a d` or `C-a C-d`
+create window | `C-a c`
+previous window | `C-a p` or `C-a C-p`
+next window | `C-a n` or `C-a C-n`
+select window # | `C-a #` (where # is 0-9)
+scrollback (copy) mode | `C-a ESC` ("q" to quit)
 
 ## license
 Source Copyright © 2015 Udacity. Distributed under the GNU General Public License v3, the same as Ansible uses. See the file COPYING.
