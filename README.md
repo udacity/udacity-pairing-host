@@ -33,7 +33,7 @@ ansible-pull -U git@github.com:udacity/udacity-pairing-host.git
 ## wemux/tmux
 
 ### Creating/Joining sessions
-todo
+[Wemux Host and Client Commands](https://github.com/zolrath/wemux#host-commands)
 
 ### keybindings
 Key  | Description
