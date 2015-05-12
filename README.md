@@ -27,7 +27,7 @@ cd udacity-pairing-host
 ansible-playbook -i /dev/null local.yml
 
 # ... or use ansible-pull
-ansible-pull --accept-host-key -o -U https://github.com/udacity/udacity-pairing-host.git
+ansible-pull -i /dev/null --accept-host-key -o -U https://github.com/udacity/udacity-pairing-host.git
 ```
 
 ## wemux/tmux
