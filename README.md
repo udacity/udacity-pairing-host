@@ -35,6 +35,17 @@ ansible-pull -i /dev/null --accept-host-key -o -U https://github.com/udacity/uda
 ### Creating/Joining sessions
 [Wemux Host and Client Commands](https://github.com/zolrath/wemux#host-commands)
 
+#### Joining a Session
+```
+[ssh|mosh] USER@pairing.udacity.com
+wemux join <session_id>
+wemux
+```
+#### Leaving a Session
+```
+Ctrl-a d
+```
+
 ### keybindings
 | description | key
 ------------- | ---
